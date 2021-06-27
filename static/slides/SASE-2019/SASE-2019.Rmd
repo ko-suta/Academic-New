@@ -101,7 +101,7 @@ meta() %>%
     twitter_card_type = "summary_large_image",
     twitter_creator = "@ko_suta"
   ) %>%
-  write_meta("meta.html")
+  include_meta()
 ```
 
 
