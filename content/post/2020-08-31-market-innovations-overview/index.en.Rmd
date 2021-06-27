@@ -4,6 +4,8 @@ author: Kostiantyn Ovsiannikov
 output:
   blogdown::html_page:
     toc: true
+header-includes:
+  - \usepackage{mathtools}
 date: '`r Sys.Date()`'
 slug: market-innovations-overview
 categories:
@@ -153,38 +155,24 @@ knitr::include_graphics(here("content", "post", "2020-08-31-market-innovations-o
 Most of the studies on this topic have followed the model developed in the seminal work by @griliches1981el that was further elaborated in @cockburn1988aer. 
 According to them, the market value of the firm, *V*, can be expressed as follows:
 
-\begin{equation} 
-  V_{it} = \alpha(A_{it} + \beta K_{it})
-  (\#eq:value)
-\end{equation} 
+$$V_{it} = \alpha(A_{it} + \beta K_{it})$$
 
-where *A* stands for the firm's tangible assets that include "plant, equipment, inventories, and financial assets" [@griliches1981el, p. 183], *K* represents the knowledge stock, and $\alpha$ -- "current market valuation [...] of the firm’s assets, reflecting its differential risk and monopoly position" [@griliches1981el, p. 183].
+where *A* stands for the firm's tangible assets that include "plant, equipment, inventories, and financial assets" [@griliches1981el, p. 183], *K* represents the knowledge stock, and $$\alpha$$ -- "current market valuation [...] of the firm’s assets, reflecting its differential risk and monopoly position" [@griliches1981el, p. 183].
 
 As the definition of *Tobin's q* is the ratio of the market value *V* of a firm to its book value *A*, we can rewrite the formula as:
 
-\begin{equation} 
-  q_t = \frac {V_{it}} {A_{it}} = \alpha \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr)
-  (\#eq:value2)
-\end{equation} 
-
+$$q_t = \frac {V_{it}} {A_{it}} = \alpha \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr)$$
 
 Taking the logarithms, we get
 
-\begin{equation} 
-  \log q_{it} = \log \alpha_t + \log \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr) + \varepsilon_{it}
-  (\#eq:value3)
-\end{equation}
+$$\log q_{it} = \log \alpha_t + \log \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr) + \varepsilon_{it}$$
 
-where $\varepsilon_{it}$ is the error term or the noise of the model.
+where $\varepsilon$ is the error term or the noise of the model.
 
 Here, the knowledge stock *K* consists of three components, such as: *R&D weighted by Assets*, *Patents per dollar of R&D*, and *Citations per Patent*. 
 Incorporating these measurements, we can rewrite the last equation as follows, according to the suggestion of @Hall.2005 (p. 24):
 
-\begin{equation} 
-  \log q_{it} = \log \alpha_t + \log \biggl(1 + \beta_1 \frac {R\&D_{it}} {A_{it}} + \beta_2 \frac {Pat_{it}} {R\&D_{it}} + \beta_3 \frac {Cites_{it}} {Pat_{it}}\biggr) + \varepsilon_{it}
-  (\#eq:value4)
-\end{equation}
-
+$$\log q_{it} = \log \alpha_t + \log \biggl(1 + \beta_1 \frac {R\&D_{it}} {A_{it}} + \beta_2 \frac {Pat_{it}} {R\&D_{it}} + \beta_3 \frac {Cites_{it}} {Pat_{it}}\biggr) + \varepsilon_{it}$$
 ` `  
 ` `
 
