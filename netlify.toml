@@ -22,9 +22,14 @@
   status = 301
   force = true
 
-
 [[redirects]]
   from = "https://kovsiannikov2.netlify.app"
   to = "https://kovsiannikov.com"
-  status = 301
+  status = 301!
+  force = true
+  
+[[redirects]]
+  from = "http://kovsiannikov2.netlify.app"
+  to = "https://kovsiannikov.com"
+  status = 301!
   force = true
