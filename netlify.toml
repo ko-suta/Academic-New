@@ -14,3 +14,31 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.84.1"
+  
+
+[[redirects]]
+  from = "https://kovsiannikov.netlify.app"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
+  
+  from = "http://kovsiannikov.netlify.app"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
+  
+  from = "https://kovsiannikov2.netlify.app"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
+  
+  from = "http://kovsiannikov2.netlify.app"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
+  
+  from = "http://kovsiannikov.com"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
+
