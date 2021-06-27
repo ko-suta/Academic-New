@@ -83,7 +83,7 @@ xaringanExtra::style_share_again(
 ```
 
 
-```{r metathis, echo=FALSE, include=FALSE}
+```{r metathis, echo=FALSE}
 library(metathis)
 meta() %>%
   meta_name("github-repo" = "ko-suta/Academic-Website") %>% 

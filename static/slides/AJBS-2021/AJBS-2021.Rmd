@@ -102,6 +102,24 @@ xaringanExtra::use_progress_bar(
 style_duo(primary_color = "#ffffff", secondary_color = "#515151")
 ```
 
+```{r metathis, echo=FALSE}
+  meta() %>%
+  meta_name("github-repo" = "ko-suta/Academic-Website") %>% 
+  meta_social(
+    title = "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability.",
+    description = paste(
+      "Market Valuation of Corporate Technological Assets.",
+      "Presented at 2021 AJBS Conference."
+    ),
+    url = "https://kovsiannikov.com/slides/ajbs-2021/ajbs-2021",
+    image = "https://kovsiannikov.com/img/Techno-screen.png",
+    image_alt = "2021 AJBS Conference Presentation",
+    og_type = "website",
+    og_author = "Kostiantyn Ovsiannikov",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@ko_suta"
+  )
+```
 
 # Background: Japan's intrapreneurial regime
 
