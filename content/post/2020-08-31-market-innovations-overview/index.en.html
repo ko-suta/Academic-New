@@ -4,8 +4,7 @@ author: Kostiantyn Ovsiannikov
 output:
   blogdown::html_page:
     toc: true
-header-includes:
-  - \usepackage{mathtools}
+math: true
 date: '2021-06-27'
 slug: market-innovations-overview
 categories:
@@ -105,17 +104,29 @@ Figure 2: Granting success rate of patents filed with the JPO
 <h1>Model</h1>
 <p>Most of the studies on this topic have followed the model developed in the seminal work by <span class="citation"><a href="#ref-griliches1981el" role="doc-biblioref">Griliches</a> (<a href="#ref-griliches1981el" role="doc-biblioref">1981</a>)</span> that was further elaborated in <span class="citation"><a href="#ref-cockburn1988aer" role="doc-biblioref">Cockburn and Griliches</a> (<a href="#ref-cockburn1988aer" role="doc-biblioref">1988</a>)</span>.
 According to them, the market value of the firm, <em>V</em>, can be expressed as follows:</p>
-<p><span class="math display">\[V_{it} = \alpha(A_{it} + \beta K_{it})\]</span></p>
-<p>where <em>A</em> stands for the firm’s tangible assets that include “plant, equipment, inventories, and financial assets” <span class="citation">(<a href="#ref-griliches1981el" role="doc-biblioref">Griliches 1981, 183</a>)</span>, <em>K</em> represents the knowledge stock, and <span class="math display">\[\alpha\]</span> – “current market valuation […] of the firm’s assets, reflecting its differential risk and monopoly position” <span class="citation">(<a href="#ref-griliches1981el" role="doc-biblioref">Griliches 1981, 183</a>)</span>.</p>
+<p><span class="math display" id="eq:value">\[\begin{equation} 
+  V_{it} = \alpha(A_{it} + \beta K_{it})
+  \tag{1}
+\end{equation}\]</span></p>
+<p>where <em>A</em> stands for the firm’s tangible assets that include “plant, equipment, inventories, and financial assets” <span class="citation">(<a href="#ref-griliches1981el" role="doc-biblioref">Griliches 1981, 183</a>)</span>, <em>K</em> represents the knowledge stock, and <span class="math inline">\(\alpha\)</span> – “current market valuation […] of the firm’s assets, reflecting its differential risk and monopoly position” <span class="citation">(<a href="#ref-griliches1981el" role="doc-biblioref">Griliches 1981, 183</a>)</span>.</p>
 <p>As the definition of <em>Tobin’s q</em> is the ratio of the market value <em>V</em> of a firm to its book value <em>A</em>, we can rewrite the formula as:</p>
-<p><span class="math display">\[q_t = \frac {V_{it}} {A_{it}} = \alpha \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr)\]</span></p>
+<p><span class="math display" id="eq:value2">\[\begin{equation} 
+  q_t = \frac {V_{it}} {A_{it}} = \alpha \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr)
+  \tag{2}
+\end{equation}\]</span></p>
 <p>Taking the logarithms, we get</p>
-<p><span class="math display">\[\log q_{it} = \log \alpha_t + \log \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr) + \varepsilon_{it}\]</span></p>
-<p>where <span class="math inline">\(\varepsilon\)</span> is the error term or the noise of the model.</p>
+<p><span class="math display" id="eq:value3">\[\begin{equation} 
+  \log q_{it} = \log \alpha_t + \log \biggl(1 + \beta \frac {K_{it}} {A_{it}}\biggr) + \varepsilon_{it}
+  \tag{3}
+\end{equation}\]</span></p>
+<p>where <span class="math inline">\(\varepsilon_{it}\)</span> is the error term or the noise of the model.</p>
 <p>Here, the knowledge stock <em>K</em> consists of three components, such as: <em>R&amp;D weighted by Assets</em>, <em>Patents per dollar of R&amp;D</em>, and <em>Citations per Patent</em>.
 Incorporating these measurements, we can rewrite the last equation as follows, according to the suggestion of <span class="citation"><a href="#ref-Hall.2005" role="doc-biblioref">Hall, Jaffe, and Trajtenberg</a> (<a href="#ref-Hall.2005" role="doc-biblioref">2005</a>)</span> (p. 24):</p>
-<p><span class="math display">\[\log q_{it} = \log \alpha_t + \log \biggl(1 + \beta_1 \frac {R\&amp;D_{it}} {A_{it}} + \beta_2 \frac {Pat_{it}} {R\&amp;D_{it}} + \beta_3 \frac {Cites_{it}} {Pat_{it}}\biggr) + \varepsilon_{it}\]</span>
-<code></code><br />
+<p><span class="math display" id="eq:value4">\[\begin{equation} 
+  \log q_{it} = \log \alpha_t + \log \biggl(1 + \beta_1 \frac {R\&amp;D_{it}} {A_{it}} + \beta_2 \frac {Pat_{it}} {R\&amp;D_{it}} + \beta_3 \frac {Cites_{it}} {Pat_{it}}\biggr) + \varepsilon_{it}
+  \tag{4}
+\end{equation}\]</span></p>
+<p><code></code><br />
 <code></code></p>
 </div>
 <div id="embedded-sase-presentation" class="section level1">
