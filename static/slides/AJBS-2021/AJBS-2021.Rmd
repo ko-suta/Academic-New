@@ -30,6 +30,7 @@ library(ggpubr)
 library(RColorBrewer)
 library(kableExtra)
 library(data.table)
+library(metathis)
 library(xaringanthemer)
 library(xaringanExtra)
 library(data.table)
@@ -103,7 +104,7 @@ style_duo(primary_color = "#ffffff", secondary_color = "#515151")
 ```
 
 ```{r metathis, echo=FALSE}
-  meta() %>%
+meta() %>%
   meta_name("github-repo" = "ko-suta/academic-new") %>% 
   meta_social(
     title = "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability.",
@@ -118,7 +119,8 @@ style_duo(primary_color = "#ffffff", secondary_color = "#515151")
     og_author = "Kostiantyn Ovsiannikov",
     twitter_card_type = "summary_large_image",
     twitter_creator = "@ko_suta"
-  )
+  ) %>%
+  write_meta("meta.html")
 ```
 
 # Background: Japan's intrapreneurial regime
