@@ -17,9 +17,14 @@
   
 
 [[redirects]]
-  from = ["https://kovsiannikov.netlify.app", "http://kovsiannikov.netlify.app", 
-          "https://kovsiannikov2.netlify.app", "http://kovsiannikov2.netlify.app",
-          "http://kovsiannikov.com"]
+  from = "https://kovsiannikov.netlify.app"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://kovsiannikov2.netlify.app"
   to = "https://kovsiannikov.com"
   status = 301
   force = true
