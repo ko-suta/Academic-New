@@ -21,6 +21,12 @@
   to = "https://kovsiannikov.com"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "http://kovsiannikov.netlify.app"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "https://kovsiannikov2.netlify.app"
@@ -33,3 +39,10 @@
   to = "https://kovsiannikov.com"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "http://kovsiannikov.com"
+  to = "https://kovsiannikov.com"
+  status = 301
+  force = true
+  
