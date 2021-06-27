@@ -86,7 +86,7 @@ xaringanExtra::style_share_again(
 ```{r metathis, echo=FALSE}
 library(metathis)
 meta() %>%
-  meta_name("github-repo" = "ko-suta/Academic-Website") %>% 
+  meta_name("github-repo" = "ko-suta/academic-new") %>% 
   meta_social(
     title = "The Role of Labor Flexibility in the Pursuit of Innovation Strategies by Established Japanese Companies.",
     description = paste(
