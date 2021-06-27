@@ -96,11 +96,6 @@ comments:
     project: false
     publication: true
     event: true
-  utterances:
-    repo: 'ko-suta/Academic-Website'
-    issue_term: 'title'
-    label: 'comments'
-    theme: 'github-light'
   disqus:
     shortname: ''
     show_count: true
