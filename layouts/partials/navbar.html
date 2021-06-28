@@ -1,0 +1,16 @@
+{{ if site.Params.day_night }}
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-adjust" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>{{ i18n "theme_light" | default "Light" }}</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>{{ i18n "theme_dark" | default "Dark" }}</span>
+          </a>
+        </div>
+      </li>
+      {{ end }} 
+
