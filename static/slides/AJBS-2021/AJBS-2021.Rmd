@@ -107,7 +107,7 @@ style_duo(primary_color = "#ffffff", secondary_color = "#515151")
 meta() %>%
   meta_name("github-repo" = "ko-suta/academic-new") %>% 
   meta_social(
-    title = "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability.",
+    title = "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability",
     description = paste(
       "Market Valuation of Corporate Technological Assets.",
       "Presented at 2021 AJBS Conference."
