@@ -10,10 +10,10 @@
   PYTHON_VERSION = "3.7"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.84.1"
+  HUGO_VERSION = "0.84.3"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.84.1"
+  HUGO_VERSION = "0.84.3"
   
 
 [[redirects]]
