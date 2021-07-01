@@ -9,8 +9,8 @@ all_day: true
 authors: []
 date: "2021-06-24T13:00:00Z"
 date_end: "2021-06-25T15:00:00Z"
-event: 2021 AJBS Conference
-event_url: https://ajbs.org/conference/2021-virtual-conference-program/
+event: 2021 SASE Conference. "After Covid? Critical Conjunctures and Contingent Pathways of Contemporary Capitalism"
+event_url: https://sase.org/event/2021-sase-conference
 featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/wO42Rmamef8)'
@@ -22,12 +22,12 @@ projects:
 - market-innovation
 publishDate: "2021-06-22T00:00:00Z"
 slides: []
-summary: Presentation made at 2021 AJBS Conference
+summary: Presentation made at 2021 SASE Conference
 tags: []
 title: Market Valuation of Corporate Technological Assets. The Case of Japan's Institutional Adaptability
 url_code: ""
 url_pdf: ""
-url_slides: "slides/AJBS-2021/AJBS-2021.html"
+url_slides: "slides/SASE-2021/SASE-2021.html"
 url_video: ""
 ---
 

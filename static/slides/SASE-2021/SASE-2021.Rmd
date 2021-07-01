@@ -1,9 +1,9 @@
 ---
 title: "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability"
-subtitle: "2021 AJBS Conference"
+subtitle: "2021 SASE Conference"
 author: "Kostiantyn Ovsiannikov, Ph.D."
 institute: ".white.bg-green[Kochi University of Technology]"
-date: "24 June 2021"
+date: "2 July 2021"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -13,8 +13,8 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: 16:9
-      #ratio: "191:100"
+      #ratio: 16:9
+      ratio: "191:100"
 ---
 
 ```{r setup, include=FALSE}
@@ -58,7 +58,7 @@ BibOptions(check.entries = FALSE,
            style = "markdown",
            hyperlink = FALSE,
            dashed = FALSE)
-myBib <- ReadBib(here("static", "slides", "AJBS-2021", "Innovation.bib"), check = FALSE)
+myBib <- ReadBib(here("static", "slides", "SASE-2021", "Innovation.bib"), check = FALSE)
 ```
 
 
@@ -110,11 +110,11 @@ meta() %>%
     title = "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability",
     description = paste(
       "Market Valuation of Corporate Technological Assets.",
-      "Presented at 2021 AJBS Conference."
+      "Presented at 2021 SASE Conference."
     ),
-    url = "https://kovsiannikov.com/slides/ajbs-2021/ajbs-2021",
+    url = "https://kovsiannikov.com/slides/sase-2021/sase-2021",
     image = "https://kovsiannikov.com/img/Techno-screen.png",
-    image_alt = "2021 AJBS Conference Presentation",
+    image_alt = "2021 SASE Conference Presentation",
     og_type = "website",
     og_author = "Kostiantyn Ovsiannikov",
     twitter_card_type = "summary_large_image",
@@ -258,7 +258,7 @@ This represents the .white.bg-black[qualitative-market] aspect of innovative pol
 # Timing of patent grants
 
 ```{r, read-data, include=FALSE}
-data <- read_csv(here("static", "slides", "AJBS-2021", "Data", "Timing.csv"), col_names = TRUE)
+data <- read_csv(here("static", "slides", "SASE-2021", "Data", "Timing.csv"), col_names = TRUE)
 ```
 
 ```{r, time-frames, include=FALSE}
@@ -389,7 +389,7 @@ This goes hand in hand with the importance of patenting activities for these sec
 
 
 ```{r include=FALSE}
-datapar <- read_csv(here("static", "slides", "AJBS-2021", "Data", "Patratio-long2.csv"), col_names = TRUE)
+datapar <- read_csv(here("static", "slides", "SASE-2021", "Data", "Patratio-long2.csv"), col_names = TRUE)
 ```
 
 ```{r, echo = FALSE, include=FALSE}
@@ -547,7 +547,7 @@ To sum up, **Tobins's Q** can be expressed as the sum of knowledge stocks weight
 # OLS regression
 
 ```{r echo = FALSE}
-General <- read.csv(here("static", "slides", "AJBS-2021", "Data", "General3.csv"), sep=",", header=TRUE, encoding="UTF-8")
+General <- read.csv(here("static", "slides", "SASE-2021", "Data", "General3.csv"), sep=",", header=TRUE, encoding="UTF-8")
 
 colnames(General)[1] <- "Name"
 General$Industry <- as.factor(General$Industry)
@@ -1060,7 +1060,7 @@ PrintBibliography(myBib)
 ---
 
 class: title-slide-final, middle
-background-image: url(assets/img/AJBS.png)
+background-image: url(assets/img/SASE.png)
 background-size: 200px
 background-position: 5% 5%
 
