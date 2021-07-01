@@ -99,7 +99,7 @@ meta() %>%
     og_type = "website",
     og_author = "Kostiantyn Ovsiannikov",
     twitter_card_type = "summary_large_image",
-    twitter_creator = "@ko_suta"
+    twitter_creator = "@kovsiann"
   ) %>%
   include_meta()
 ```

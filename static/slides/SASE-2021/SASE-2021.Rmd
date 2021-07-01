@@ -13,8 +13,8 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      #ratio: 16:9
-      ratio: "191:100"
+      ratio: 16:9
+      #ratio: "191:100"
 ---
 
 ```{r setup, include=FALSE}
@@ -118,7 +118,7 @@ meta() %>%
     og_type = "website",
     og_author = "Kostiantyn Ovsiannikov",
     twitter_card_type = "summary_large_image",
-    twitter_creator = "@ko_suta"
+    twitter_creator = "@kovsiann"
   ) %>%
   include_meta()
 ```
