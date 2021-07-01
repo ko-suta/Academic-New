@@ -7,8 +7,8 @@ address:
 
 all_day: true
 authors: []
-date: "2021-06-24T13:00:00Z"
-date_end: "2021-06-25T15:00:00Z"
+date: "2021-07-02T13:00:00Z"
+date_end: "2021-07-05T15:00:00Z"
 event: 2021 SASE Conference. "After Covid? Critical Conjunctures and Contingent Pathways of Contemporary Capitalism"
 event_url: https://sase.org/event/2021-sase-conference
 featured: false
@@ -20,7 +20,7 @@ location: online
 math: true
 projects:
 - market-innovation
-publishDate: "2021-06-22T00:00:00Z"
+publishDate: "2021-07-01T00:00:00Z"
 slides: []
 summary: Presentation made at 2021 SASE Conference
 tags: []
