@@ -202,12 +202,20 @@ How does Tokyo Stock Exchange (TSE) evaluate corporate innovations?]
 TSE positively evaluates companies with higher R&D expenditures.
 This represents the .white.bg-black[institutional] aspect of corporate innovations.
 
+???
+
+* R&D stock is a long-term institutional signaling; attribute of a **network-based** business approach that works in the regulated and coordinated environment
+
 --
 
 > **Hypothesis 2**
 >
 TSE positively evaluates companies whose R&D expenditures yield higher patent stocks.
 This represents the .white.bg-black[quantitative-market] aspect of corporate innovative policies.
+
+???
+
+- Patents' quantity and quality are preconditions for successfully waging market **competition**. Here, not only the mere R&D spending, but rather **R&D efficiency** matters
 
 --
 
@@ -216,11 +224,6 @@ This represents the .white.bg-black[quantitative-market] aspect of corporate inn
 TSE positively evaluates influential patents judged by the number of citations accruing to them.
 This represents the .white.bg-black[qualitative-market] aspect of innovative policies.
 
-???
-
-- R&D stock is a long-term institutional signaling; attribute of a **network-based** business approach that works in the regulated and coordinated environment
-
-- Patents' quality and quantity is a precondition for successfully waging market **competition**, including the international level. It is a sign of **deregulation** forces
 
 ---
 
@@ -1051,7 +1054,7 @@ plot(b, select = c(9)) +
 
 ???
 
-Most of the companies, but especially the ones belonging to **Pharm** and **Chemical** industries are still embedded in a system of industrial coordination
+* Most of the companies, but especially the ones belonging to **Pharm** and **Chemical** industries are still embedded in a system of industrial coordination. Oligopolistic features still prevalent
 
 --
 
@@ -1061,7 +1064,7 @@ Most of the companies, but especially the ones belonging to **Pharm** and **Chem
 
 ???
 
-Thereby these companies react to the accumulating competitive pressures and are redefining themselves within an open-market system
+* Thereby these companies react to the accumulating competitive pressures and are redefining themselves within an open-market system
 
 --
 
