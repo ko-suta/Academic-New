@@ -1049,8 +1049,6 @@ plot(b, select = c(9)) +
 **1.** Institutional features associated with .white.bg-black[R&D spending] provide valuable signals for investors across multiple industries.
 >
 
-<br>
-
 ???
 
 Most of the companies, but especially the ones belonging to **Pharm** and **Chemical** industries are still embedded in a system of industrial coordination
@@ -1060,8 +1058,6 @@ Most of the companies, but especially the ones belonging to **Pharm** and **Chem
 > 
 **2.** Quality of a patented output .white.bg-black[(Citations per Patent)] mostly matters for the manufacturing sector.
 >
-
-<br>
 
 ???
 
@@ -1078,11 +1074,11 @@ Thereby these companies react to the accumulating competitive pressures and are 
 
 ## Limitations
 
-* Only utilized the JPO data, need to look at Triadic Patents as well
+* Only utilized the JPO data, need to look at **Triadic Patents** as well
 
-* Find out the updated rates of knowledge stock depreciation (per industry) 
+* Find out the updated **depreciation rates** for the knowledge stocks (per industry) 
 
-* Possibly including corporate governance and shareholding data to better capture the institutional aspect
+* Possibly including **corporate governance** and **shareholding structure** to better capture the institutional aspects of innovation
 
 ---
 
