@@ -1,6 +1,6 @@
 ---
 title: "Market Valuation of Corporate Technological Assets: <br> The Case of Japan's Institutional Adaptability"
-subtitle: "2021 SASE Conference"
+subtitle: "2021 SASE Conference: <br> .white.bg-black[Network F-KITE “Institutional Logics and Change”]"
 author: "Kostiantyn Ovsiannikov, Ph.D."
 institute: ".white.bg-green[Kochi University of Technology]"
 date: "2 July 2021"
@@ -164,9 +164,6 @@ class: highlight-last-item
 
 - distinct corporate institutional arrangements (.white.bg-black[relational finance] & .white.bg-black[stakeholder governance]) `r fa("arrow-right", fill = "blue")`
 
---
-
-- .white.bg-black[However], during the last 30 years, Japan has witnessed **institutional** `r fa("random", fill = "blue")` , as **market influence** has `r fa("arrow-up", fill = "blue")`
 
 --
 
@@ -174,6 +171,13 @@ class: highlight-last-item
 
 <ru-blockquote>Organizations are social communities in which individual and social expertise is transformed into economically useful products and services
 .right[— <cite>`r TextCite(myBib, "kogut1992os", .opts = list(cite.style = "authoryear", style = "html"))`</cite>]</ru-blockquote>
+
+--
+
+<br>
+
+- .white.bg-black[However], during the last 30 years, Japan has witnessed **institutional** `r fa("random", fill = "blue")` , as **market influence** has `r fa("arrow-up", fill = "blue")`
+
 
 ???
 
@@ -211,6 +215,12 @@ This represents the .white.bg-black[quantitative-market] aspect of corporate inn
 >
 TSE positively evaluates influential patents judged by the number of citations accruing to them.
 This represents the .white.bg-black[qualitative-market] aspect of innovative policies.
+
+???
+
+- R&D stock is a long-term institutional signaling; attribute of a **network-based** business approach that works in the regulated and coordinated environment
+
+- Patents' quality and quantity is a precondition for successfully waging market **competition**, including the international level. It is a sign of **deregulation** forces
 
 ---
 
@@ -379,9 +389,8 @@ Thereby, many applicants were prompted to speed up the registration of their inv
 
 * Although an average time for receiving a patent within the **Chemical** industry throughout 1971-2014 was roughly the same as within the Electronics, starting from 1990s Chemical-related applications have required more approval time than the Electric-related ones.
 
-* Hence, especially for the period analyzed in this article, most challenging conditions for licensing appear to be in the **Chemical** and the related **Pharmaceutical** industries. 
-This goes hand in hand with the importance of patenting activities for these sectors both in Japan and internationally.
-
+<!-- * Hence, especially for the period analyzed in this article, most challenging conditions for licensing appear to be in the **Chemical** and the related **Pharmaceutical** industries.  -->
+<!-- This goes hand in hand with the importance of patenting activities for these sectors both in Japan and internationally. -->
 
 ---
 
@@ -647,7 +656,7 @@ cm <- c("(Intercept)" = "Constant",
 
 ```{r echo=FALSE, warning=FALSE}
 tab1 <- modelsummary(models, output = 'kableExtra', estimate = "{estimate} ({std.error}){stars}",
-         coef_map = cm, stars = TRUE, gof_omit = 'IC|Log|Adj',
+         coef_map = cm, gof_omit = 'IC|Log|Adj',
          statistic = NULL)
 ```
 
@@ -712,6 +721,10 @@ tab1 %>%
 
 * The same holds true about the positive assessment of R&D stocks for **Chemicals** and **Machinery**.
 
+* (Linear model does not capture this but) market does appreciate R&D spending by the Electric Equipment companies when the R&D stock levels exceed the lower quartile of the observed range.
+
+* Thus, R&D spending is actually universally important for all industries
+
 
 ---
 count: false
@@ -761,6 +774,10 @@ tab1 %>%
 # Citations per Patent
 
 * **Electrical Equipment** and **Machinery**: peculiar for receiving market premium for more influential patents.
+
+* Thus, quality of patents is particularly important for the **manufacturing** sector
+
+* For **Chemicals**, based on GAMs, there is an evidence of a positive market reaction when the Cit/Pat ratio rises from 3 to 6
 
 
 ---
@@ -1034,6 +1051,10 @@ plot(b, select = c(9)) +
 
 <br>
 
+???
+
+Most of the companies, but especially the ones belonging to **Pharm** and **Chemical** industries are still embedded in a system of industrial coordination
+
 --
 
 > 
@@ -1041,6 +1062,10 @@ plot(b, select = c(9)) +
 >
 
 <br>
+
+???
+
+Thereby these companies react to the accumulating competitive pressures and are redefining themselves within a market system
 
 --
 
@@ -1062,7 +1087,7 @@ PrintBibliography(myBib)
 class: title-slide-final, middle
 background-image: url(assets/img/SASE.png)
 background-size: 200px
-background-position: 5% 5%
+background-position: 5% 1%
 
 # Thank You for Your attention!
 
