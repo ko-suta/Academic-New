@@ -1065,7 +1065,7 @@ Most of the companies, but especially the ones belonging to **Pharm** and **Chem
 
 ???
 
-Thereby these companies react to the accumulating competitive pressures and are redefining themselves within a market system
+Thereby these companies react to the accumulating competitive pressures and are redefining themselves within an open-market system
 
 --
 
@@ -1073,6 +1073,16 @@ Thereby these companies react to the accumulating competitive pressures and are 
 **3.** Pronounced nonlinear trend in the market perception of .white.bg-black[corporate age]: only the more experienced companies receive market premium as they get older.
 >
 
+
+--
+
+## Limitations
+
+* Only utilized the JPO data, need to look at Triadic Patents as well
+
+* Find out the updated rates of knowledge stock depreciation (per industry) 
+
+* Possibly including corporate governance and shareholding data to better capture the institutional aspect
 
 ---
 
